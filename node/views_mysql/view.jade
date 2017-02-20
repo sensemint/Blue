@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+
+    link(href='/css/master.css')
+  body
+    h1
+      a(href='/topic') Contact us!
+    ul
+      each topic in topics
+        li
+          a(href='/topic/'+topic.id)= topic.title
+    article
+      if topic
+        h2= topic.title
+        = topic.description
+        | hi
+        div= 'by '+topic.author
+      else
+        h2 Welcome
+        | this dkdkdkdk
+    div
+      a(class='add', href='/topic/add') add
