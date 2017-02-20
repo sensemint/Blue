@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/master.css">
+
+  <link rel="stylesheet" href="reset.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+    }
+    .scene {
+      height: 100vh;
+      overflow: hidden;
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 200;
+    }
+    .scene.one{
+      background-image: url(img/pool2.jpg);
+    }
+    .scene.one-contents, .scene.two-contents,
+    .scene.three-contents{
+      text-align: center;
+      height: 50vh;
+    }
+
+    .scene.two{
+      background-image: url(img/room3.jpg);
+    }
+    .scene.three{
+      background-image: url(img/room5.jpg);
+    }
+    .headLine{
+      color:white;
+      max-width: 80%;
+      position: relative;
+      left:50%;
+      top:50%;
+      transform:translateX(-50%) translateY(-50%);
+      font-size:1.5rem;
+      text-align: center;
+    }
+    .scene header h2{
+      font-size:2rem;
+      margin-bottom: 1rem;
+      font-weight: 300;
+    }
+    .scene header h2:after{
+      content:'';
+      border-bottom:1px solid white;
+      width:8rem;
+      display: block;
+      margin:0 auto;
+      margin-top:1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header class = "newheader" id = "header">
+    <div class = "home">
+      <img src="" alt="">
+      <a href="#">blueBerry</a>
+    </div>
+
+    <div class = "menu">
+      <div class = "menu-intro">
+        <a href="#">소개</a>
+      </div>
+      <div class = "menu-space">
+        <a href="#">공간</a>
+      </div>
+      <div class = "menu-room">
+        <a href="#">방</a>
+      </div>
+    </div>
+
+    <!-- show. -->
+    <nav class = "show">
+      <div class = "show-intro">
+        <div class = "show-intro-name">
+          <a href="index.html"  class="aIntName">소개</a>
+        </div>
+        <div class = "show-intro-name">
+          <a href="#" class="aIntName">경관</a>
+        </div>
+        <div class = "show-intro-name">
+          <a href="#" class="aIntName">시설</a>
+        </div>
+      </div>
+
+      <div class = "show-space">
+        <div class = "show-space-name">
+          <a href="room.html" class="aSpaName">바베큐</a>
+        </div>
+        <div class = "show-space-name">
+          <a href="#" class="aSpaName">카페</a>
+        </div>
+        <div class = "show-space-name">
+          <a href="#" class="aSpaName">모사금</a>
+        </div>
+      </div>
+
+      <div class = "show-room">
+        <div class = "show-room-name">
+          <a href="room2.html" class="aRoomName">기본</a>
+        </div>
+        <div class = "show-room-name">
+          <a href="#" class="aRoomName">패밀리</a>
+        </div>
+        <div class = "show-room-name">
+          <a href="#" class="aRoomName">풀</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <div>
+    <section class="scene one">
+      <div class="headLine">
+        <h2>Lorem ipsum dolor sit amet.</h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam suscipit sint ab beatae nihi
+      </div>
+    </section>
+    <div class="scene one-contents">
+      <h2>infinit pool</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam suscipit sint ab beatae nihi </p>
+    </div>
+  </div>
+    //그리고 온수풀.
+
+  <div>
+    <section class="scene two">
+      <div class="headLine">
+        <h2>Lorem ipsum dolor sit amet.</h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam suscipit sint ab beatae nihi
+      </div>
+    </section>
+    <div class="scene two-contents">
+      <h2>cafe</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam suscipit sint ab beatae nihi </p>
+    </div>
+  </div>
+    // 그리고 야외 장소.
+
+  <div>
+    <section class="scene three">
+      <div class="headLine">
+        <h2>Lorem ipsum dolor sit amet.</h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam suscipit sint ab beatae nihi
+      </div>
+    </section>
+    <div class="scene three-contents">
+      <h2>바베큐</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam suscipit sint ab beatae nihi </p>
+    </div>
+  </div>
+
+
+
+
+  <script type="text/javascript" src = "js/app.js"></script>
+  <script type="text/javascript" src = "js/anim.js"></script>
+
+
+</body>
+
+</html>

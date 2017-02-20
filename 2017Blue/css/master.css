@@ -1,0 +1,240 @@
+
+header {
+  border-bottom: 1px solid #dce0e0;
+  width: 100%;
+  height: 61px;
+  top: 0;
+  position: fixed;
+  background: white;
+  z-index: 100;
+}
+
+header a{
+  color : black;
+  text-decoration: none;
+
+}
+
+/*홈버튼*/
+.home{
+
+  float: left;
+  height: 61px;
+  line-height: 61px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+
+}
+
+.menu{
+  position: absolute;
+  right: 50px;
+  height: 61px;
+}
+
+/*메뉴버튼*/
+.menu-intro, .menu-space, .menu-room{
+    display: inline-block;
+    height: 61px;
+    line-height: 61px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.show{
+  padding-top: 61px;
+
+}
+
+.show a{
+  color : black;
+  text-decoration: none;
+
+  padding : 15px 88px 15px 30px;
+
+  text-align: center;
+
+}
+.show-intro{
+  display: none;
+  position : fixed;
+  right:150px;
+  width: 200px;
+  background-color: white;
+  margin-bottom: 50px;
+
+  float: left;
+  border: 1px solid #dce0e0;
+  z-index: 100;
+}
+
+.show-space{
+  display: none;
+  position: fixed;
+  right: 100px;
+  width: 200px;
+  background-color: white;
+  margin-bottom: 50px;
+  float: left;
+  border: 1px solid #dce0e0;
+  z-index: 100;
+}
+
+.show-room{
+  display: none;
+  position: fixed;
+  width: 200px;
+  right: 30px;
+  background-color: white;
+  margin-bottom: 50px;
+  float: left;
+  border: 1px solid #dce0e0;
+  z-index: 100;
+
+}
+
+.show-intro-name, .show-space-name, .show-room-name{
+  padding: 20px 35px 20px 5px;
+  text-align: center;
+  border-bottom: 1px solid #dce0e0 ;
+}
+
+.container{
+  margin-top: 5%;
+  padding-left: -5%;
+}
+
+.main-row{
+  text-align: center;
+  align-content: center;
+}
+
+.main-row h1{
+  padding: 100px;
+}
+
+.main-row h3{
+    font-family: "Playfair Display",sans-serif;
+    /* font-weight: 400; */
+    font-size: 22px;
+    line-height: 28px;
+    color: #000;
+}
+
+.main-row p{
+  width: 500px;
+  display: inline-block;
+  padding: 30px;
+  text-align: justify;
+
+}
+
+/*.card-contents{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
+/*
+.card-contents::after {
+  content: '';
+  display: block;
+  clear: both;
+}*/
+
+/*.cardView{
+float: left;
+  width: 200px;
+  background-color: pink;
+  border: 1px solid black;
+
+}
+
+.cardView img{
+  height: 150px;
+  width: 200px;
+  padding: 20px;
+}
+
+.cardView:nth-child(2){
+  left: 300px;
+}
+
+.cardView:nth-child(3){
+  left: 600px;
+}*/
+
+.body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blue{
+  padding-top: 5%;
+  background-color: skyblue;
+  height: 330px;
+  color: white;
+  text-align: center;
+}
+
+.blue p{
+  margin-top: 3%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+
+
+
+/*이미지 3개*/
+.inner{
+  margin-top: 5%;
+  height: 500px;
+  /*border: 1px solid black;*/
+  text-align: center;
+  /*background: #5385c1;*/
+}
+
+.box.headLine p{
+  font-size: 1.25em;
+  color: #bfbfbf;
+}
+
+.box.person{
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  display: inline-block;
+  margin: 25px;
+  padding: 10px;
+}
+
+.box.person img{
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+
+}
+
+
+footer{
+  /*background: #dcdcdc;*/
+  border-top: 1px solid #dce0e0 ;
+}
+
+
+.carousel-inner{
+  height: 400px;
+  overflow: hidden;
+}
+
+/*글자*/
+
+.main-row h3:after{
+  content:'';
+  border-bottom: 1px solid black;
+  display:block;
+  width: 30rem;
+  margin: 3rem auto;

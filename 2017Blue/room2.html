@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
+    <style media="screen">
+      .body{
+        margin: 0;
+        font-family: 'Source Sans Pro', sans-serif;
+        /*margin: auto;*/
+      }
+      .scene{
+        height: 100vh;
+        display: block;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .scene h1{
+        margin:0;
+        font-size: 2rem;
+        font-weight : 200;
+      }
+      .scene h1:after{
+        content:'';
+        border-bottom: 1px solid white;
+        display:block;
+        width: 10rem;
+        margin: 0.7rem auto;
+      }
+      .headLine{
+        color: white;
+        max-width: 80%;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        text-align: center;
+        font-weight: 200;
+      }
+      .scene.one{
+        background-image: url(img/room1.jpg);
+      }
+      .main-contents{
+        text-align: center;
+        margin: 100px;
+      }
+
+/**/
+      .left-contents{
+        height: 50vh;
+        /*height: 400px;*/
+        /*border: 1px solid red;*/
+        margin-bottom: 10%;
+        margin-left: 3%;
+        overflow: hidden;
+      }
+      .left-contents img{
+        margin: 20px;
+        width: 43%;
+        /*border: 1px solid blue;*/
+        position: absolute;
+        /*float: left;*/
+
+      }
+      .left-text{
+        margin: 20px;
+        /*overflow: hidden;*/
+        width: 40%;
+        right: 0px;
+        margin-left: 50%;
+        margin-top: 5%;
+        font-family: 'Open Sans', sans-serif;
+      }
+      .left-text h1{
+        color: #4c4c4c;
+        font-weight: 300;
+        font-size: 3rem;
+      }
+      .left-text p{
+        color: #555;
+        font-size: 21px;
+        font-weight: 100;
+        line-height: 1.4;
+      }
+/*..*/
+      .right-contents{
+        margin-top: 10px;
+        margin-right: 3%;
+        height: 50vh;
+        border: 1px solid blue;
+        overflow: hidden;
+        border-top: 1px solid #f1f1f1;
+        margin-bottom: 10%;
+      }
+      .right-contents img{
+        margin: 20px;
+        width: 43%;
+        /*border: 1px solid blue;*/
+        /*position: absolute;*/
+        float: right;
+
+      }
+      .right-text{
+        margin: 50px;
+        margin-left: 100px;
+        width: 40%;
+        right: 0px;
+        /*margin-left: 50%;*/
+        margin-top: 5%;
+        font-family: 'Open Sans', sans-serif;
+      }
+      .right-text h1{
+        color: #4c4c4c;
+        font-weight: 300;
+        font-size: 48px;
+      }
+      .right-text p{
+        color: #555;
+        font-size: 21px;
+        font-weight: 100;
+        line-height: 1.4;
+      }
+
+      .threeThings{
+        margin-top: 10px;
+        height: 50vh;
+        border: 1px solid blue;
+        overflow: hidden;
+        border-top: 1px solid #f1f1f1;
+        margin-bottom: 10%;
+        background-color: #f6f6f6;
+      }
+    </style>
+  </head>
+  <body>
+    <header class = "newheader" id = "header">
+      <div class = "home">
+        <img src="" alt="">
+        <a href="#">blueBerry</a>
+      </div>
+
+      <div class = "menu">
+        <div class = "menu-intro">
+          <a href="#">소개</a>
+        </div>
+        <div class = "menu-space">
+          <a href="#">공간</a>
+        </div>
+        <div class = "menu-room">
+          <a href="#">방</a>
+        </div>
+      </div>
+
+      <!-- show. -->
+      <nav class = "show">
+        <div class = "show-intro">
+          <div class = "show-intro-name">
+            <a href="index.html"  class="aIntName">소개</a>
+          </div>
+          <div class = "show-intro-name">
+            <a href="#" class="aIntName">경관</a>
+          </div>
+          <div class = "show-intro-name">
+            <a href="#" class="aIntName">시설</a>
+          </div>
+        </div>
+
+        <div class = "show-space">
+          <div class = "show-space-name">
+            <a href="room.html" class="aSpaName">바베큐</a>
+          </div>
+          <div class = "show-space-name">
+            <a href="#" class="aSpaName">카페</a>
+          </div>
+          <div class = "show-space-name">
+            <a href="#" class="aSpaName">모사금</a>
+          </div>
+        </div>
+
+        <div class = "show-room">
+          <div class = "show-room-name">
+            <a href="room2.html" class="aRoomName">기본</a>
+          </div>
+          <div class = "show-room-name">
+            <a href="#" class="aRoomName">패밀리</a>
+          </div>
+          <div class = "show-room-name">
+            <a href="#" class="aRoomName">풀</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class = "scene one">
+      <div class = "headLine">
+        <h1>Lorem ipsum dolor sit amet.  </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Totam suscipit sint ab beatae nihi  </p>
+      </div>
+    </section>
+
+    <div class="main-contents">
+
+      <br>
+      <br>
+      <h1> 마음을 움직이는 스토리</h1>
+      <p>즉 멀리 있는 물체는 천천히 움직이고, 가까이 있는 물체는 빨리 움직이는 현상을 의미하죠. <br>
+        이 현상을 이용하면 입체감,실체감을 높여서 보다 인상적인 디자인을 할 수 있습니다.</p>
+    </div>
+
+
+    <!-- 테라스 -->
+    <section class="left-contents">
+      <div class = "left-img">
+        <img src="img/room1.jpg" alt="">
+      </div>
+      <div class = "left-text">
+        <h1> 마음을 움직이는 스토리</h1>
+        <p>즉 멀리 있는 물체는 천천히 움직이고, 가까이 있는 물체는 빨리 움직이는 현상을 의미하죠. 이 현상을 이용하면 입체감,
+          실체감을 높여서 보다 인상적인 디자인을 할 수 있습니다.</p>
+      </div>
+    </section>
+
+    <!-- 욕실 -->
+    <section class="right-contents">
+      <div class = "right-img">
+          <img src="img/bath.jpg" alt="">
+      </div>
+      <div class = "right-text">
+        <h1> 더 깨끗하게</h1>
+        <p>즉 멀리 있는 물체는 천천히 움직이고, 가까이 있는 물체는 빨리 움직이는 현상을 의미하죠. 이 현상을 이용하면 입체감,
+          실체감을 높여서 보다 인상적인 디자인을 할 수 있습니다.</p>
+      </div>
+    </section>
+
+    <!-- 욕실 -->
+    <section class="threeThings">
+      <div class = "right-img">
+          <img src="img/bath.jpg" alt="">
+      </div>
+      <div class = "right-text">
+        <h1> 더 깨끗하게</h1>
+        <p>즉 멀리 있는 물체는 천천히 움직이고, 가까이 있는 물체는 빨리 움직이는 현상을 의미하죠. 이 현상을 이용하면 입체감,
+          실체감을 높여서 보다 인상적인 디자인을 할 수 있습니다.</p>
+      </div>
+    </section>
+
+
+    <script type="text/javascript" src = "js/app.js"></script>
+    <script type="text/javascript" src = "js/anim.js"></script>
+
+  </body>
+</html>
